@@ -1,0 +1,6 @@
+{
+  "block.horsepocalypse.test": "test item/block",
+
+  "item.horsepocalypse.horse_leg" : "Horse Leg",
+  "item.horsepocalypse.horse_cleaver" : "Horse Cleaver"
+}
