@@ -16,7 +16,7 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Horsepocalypse.MODID);
 
     public static final DeferredBlock<Block> TEST = registerBlock("test",
-            () -> new Block(BlockBehaviour.Properties.of().noCollission().lightLevel(state -> 15).requiresCorrectToolForDrops().strength(0f)));
+            () -> new Block(BlockBehaviour.Properties.of().noCollission().lightLevel(state -> 15).requiresCorrectToolForDrops()));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
